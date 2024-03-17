@@ -36,7 +36,7 @@ Key Features of app:
 - [x] Search Functionality: Implements a Search Textfield allowing users to search for specific cities and view their related weather information.
 - [x] Error Handling: Introduces an Error view controller as a pop-up to gracefully handle any anomalies or errors that may occur during App usage.
 
-Usage
+Usage:
 To use the Weather App:
 
 1. Clone the repository to your local machine.
@@ -47,13 +47,13 @@ To use the Weather App:
 Recording of app:
 https://www.loom.com/share/163cf553cef74584922477845647ec83?sid=e730454d-80fd-4c33-a039-407d2fb50229
 
-Contributing
+Contributing:
 Contributions to the Weather App project are welcome! Feel free to submit pull requests with any improvements, bug fixes, or new features.
 
-License
+License:
 This project is licensed under the MIT License, allowing for open collaboration and usage.
 
-Acknowledgments
+Acknowledgments:
 Special thanks to the creators of the libraries, APIs, and resources used in this project, as well as the community for their support and contributions.
 
 
