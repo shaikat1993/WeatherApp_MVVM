@@ -26,6 +26,6 @@ When app starts, you can see city name, current temperature, sunrise, wind speed
 - [x] [SwiftyJSON](https://github.com/SwiftyJSON)
 
 Recording of app:
-https://www.loom.com/share/702be299fc9a4f41aa95d09d65f5db6e?sid=2a4128d0-a391-4b27-b112-31964a2bad25
+https://www.loom.com/share/163cf553cef74584922477845647ec83?sid=e730454d-80fd-4c33-a039-407d2fb50229
 
 
