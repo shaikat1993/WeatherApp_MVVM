@@ -1,0 +1,24 @@
+PODS:
+  - lottie-ios (4.4.1)
+  - SwiftyJSON (5.0.1)
+  - ViewAnimator (3.1.0)
+
+DEPENDENCIES:
+  - lottie-ios
+  - SwiftyJSON
+  - ViewAnimator
+
+SPEC REPOS:
+  trunk:
+    - lottie-ios
+    - SwiftyJSON
+    - ViewAnimator
+
+SPEC CHECKSUMS:
+  lottie-ios: e047b1d2e6239b787cc5e9755b988869cf190494
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  ViewAnimator: a9ceed80266e00fd435ec4fb99b2df64d580d0e4
+
+PODFILE CHECKSUM: b0f738978767188977cb67d09e7ad827bea491f6
+
+COCOAPODS: 1.12.1

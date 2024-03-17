@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_WeatherApp_Sadidur_WeatherApp_SadidurUITests : NSObject
+@end
+@implementation PodsDummy_Pods_WeatherApp_Sadidur_WeatherApp_SadidurUITests
+@end

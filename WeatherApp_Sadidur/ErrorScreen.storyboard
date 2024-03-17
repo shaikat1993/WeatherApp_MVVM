@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AdventPro-Regular.ttf">
+            <string>AdventPro-Regular</string>
+        </array>
+        <array key="AdventPro-SemiBold.ttf">
+            <string>AdventPro-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Error View Controller-->
+        <scene sceneID="AC1-DY-BQS">
+            <objects>
+                <viewController restorationIdentifier="ErrorViewController" storyboardIdentifier="ErrorViewController" id="Md7-5a-yqu" customClass="ErrorViewController" customModule="WeatherApp_Sadidur" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="3oP-96-Vpk">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lG1-2f-Ish">
+                                <rect key="frame" x="46.666666666666657" y="276" width="300" height="300"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Uh oh, something went wrong" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lHS-wI-RRX">
+                                        <rect key="frame" x="32" y="150" width="236" height="20.333333333333343"/>
+                                        <fontDescription key="fontDescription" name="AdventPro-SemiBold" family="Advent Pro" pointSize="17"/>
+                                        <color key="textColor" name="PrimaryColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter a correct city name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62w-tZ-1fI">
+                                        <rect key="frame" x="32" y="180.33333333333331" width="236" height="19.333333333333343"/>
+                                        <fontDescription key="fontDescription" name="AdventPro-Regular" family="Advent Pro" pointSize="16"/>
+                                        <color key="textColor" name="PrimaryColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0nW-YF-e53">
+                                        <rect key="frame" x="108" y="251" width="84" height="34"/>
+                                        <color key="backgroundColor" name="PrimaryColor"/>
+                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Try Again">
+                                            <fontDescription key="titleFontDescription" name="AdventPro-Regular" family="Advent Pro" pointSize="17"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="tryAgain:" destination="Md7-5a-yqu" eventType="touchUpInside" id="R1y-5t-rCJ"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zu7-Nu-Rvz" customClass="LottieAnimationView" customModule="Lottie">
+                                        <rect key="frame" x="30" y="14" width="240" height="128"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="ErrorCloud"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="0Kz-69-NOv"/>
+                                    <constraint firstItem="lHS-wI-RRX" firstAttribute="top" secondItem="Zu7-Nu-Rvz" secondAttribute="bottom" constant="8" id="1ni-yg-bGJ"/>
+                                    <constraint firstItem="lHS-wI-RRX" firstAttribute="top" secondItem="lG1-2f-Ish" secondAttribute="top" constant="150" id="5L5-8x-pSx"/>
+                                    <constraint firstAttribute="trailing" secondItem="lHS-wI-RRX" secondAttribute="trailing" constant="32" id="7ZK-qp-5iq"/>
+                                    <constraint firstAttribute="height" constant="300" id="8qH-Fz-DqP"/>
+                                    <constraint firstItem="62w-tZ-1fI" firstAttribute="leading" secondItem="lG1-2f-Ish" secondAttribute="leading" constant="32" id="QgP-ZS-Uxr"/>
+                                    <constraint firstItem="0nW-YF-e53" firstAttribute="centerX" secondItem="lG1-2f-Ish" secondAttribute="centerX" id="R4N-dL-mIR"/>
+                                    <constraint firstAttribute="bottom" secondItem="0nW-YF-e53" secondAttribute="bottom" constant="15" id="RKC-2l-hy9"/>
+                                    <constraint firstItem="Zu7-Nu-Rvz" firstAttribute="top" secondItem="lG1-2f-Ish" secondAttribute="top" constant="14" id="TLM-GT-fai"/>
+                                    <constraint firstItem="62w-tZ-1fI" firstAttribute="top" secondItem="lHS-wI-RRX" secondAttribute="bottom" constant="10" id="Vbb-jv-yQk"/>
+                                    <constraint firstItem="Zu7-Nu-Rvz" firstAttribute="leading" secondItem="lG1-2f-Ish" secondAttribute="leading" constant="30" id="dLc-uX-gLO"/>
+                                    <constraint firstItem="lHS-wI-RRX" firstAttribute="leading" secondItem="lG1-2f-Ish" secondAttribute="leading" constant="32" id="duo-ef-9Zb"/>
+                                    <constraint firstAttribute="trailing" secondItem="62w-tZ-1fI" secondAttribute="trailing" constant="32" id="gcZ-Jn-hf8"/>
+                                    <constraint firstAttribute="trailing" secondItem="Zu7-Nu-Rvz" secondAttribute="trailing" constant="30" id="xZ2-R6-yQ2"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="lG1-2f-Ish" firstAttribute="centerY" secondItem="3oP-96-Vpk" secondAttribute="centerY" id="m4f-Er-uYw"/>
+                            <constraint firstItem="lG1-2f-Ish" firstAttribute="centerX" secondItem="3oP-96-Vpk" secondAttribute="centerX" id="yAH-7x-zLH"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" white="0.21490904100898173" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <navigationItem key="navigationItem" id="eLu-DH-yDI"/>
+                    <connections>
+                        <outlet property="backgroundView" destination="lG1-2f-Ish" id="mTc-v0-uWq"/>
+                        <outlet property="cloudAnimation" destination="Zu7-Nu-Rvz" id="bqc-F7-ov9"/>
+                        <outlet property="tryAgainButton" destination="0nW-YF-e53" id="zBe-Qi-fIx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0me-km-g9f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1486.9565217391305" y="63.616071428571423"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="Zu7-Nu-Rvz"/>
+    </designables>
+    <resources>
+        <namedColor name="PrimaryColor">
+            <color red="0.17299999296665192" green="0.20399999618530273" blue="0.24699999392032623" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

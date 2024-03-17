@@ -7,15 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		219317717A90F364F21233C0 /* Pods_WeatherApp_Sadidur_WeatherApp_SadidurUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63CABA08AD5E072EEDC2E08 /* Pods_WeatherApp_Sadidur_WeatherApp_SadidurUITests.framework */; };
+		9202BFFB2BA6FCA600980D31 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9202BFFA2BA6FCA600980D31 /* StringExtension.swift */; };
+		9202BFFE2BA7030800980D31 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9202BFFD2BA7030800980D31 /* LocationService.swift */; };
+		9214C3912BA65AC40028E070 /* AdventPro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9214C37C2BA65AC20028E070 /* AdventPro-ExtraLight.ttf */; };
+		9214C3922BA65AC40028E070 /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9214C37D2BA65AC20028E070 /* Rubik-Italic.ttf */; };
+		9214C3932BA65AC40028E070 /* AdventPro-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9214C37E2BA65AC30028E070 /* AdventPro-Thin.ttf */; };
+		9214C3942BA65AC40028E070 /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9214C37F2BA65AC30028E070 /* Rubik-Light.ttf */; };
+		9214C3952BA65AC40028E070 /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9214C3802BA65AC30028E070 /* Rubik-MediumItalic.ttf */; };
+		9214C3962BA65AC40028E070 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9214C3812BA65AC30028E070 /* Rubik-Medium.ttf */; };
+		9214C3972BA65AC40028E070 /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9214C3822BA65AC30028E070 /* Rubik-BlackItalic.ttf */; };
+		9214C3982BA65AC40028E070 /* AdventPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9214C3832BA65AC30028E070 /* AdventPro-Light.ttf */; };
+		9214C3992BA65AC40028E070 /* Rubik-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9214C3842BA65AC30028E070 /* Rubik-SemiBold.ttf */; };
+		9214C39A2BA65AC40028E070 /* AdventPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9214C3852BA65AC30028E070 /* AdventPro-Bold.ttf */; };
+		9214C39B2BA65AC40028E070 /* Rubik-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9214C3862BA65AC30028E070 /* Rubik-ExtraBoldItalic.ttf */; };
+		9214C39C2BA65AC40028E070 /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9214C3872BA65AC30028E070 /* Rubik-LightItalic.ttf */; };
+		9214C39D2BA65AC40028E070 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9214C3882BA65AC30028E070 /* Rubik-Regular.ttf */; };
+		9214C39E2BA65AC40028E070 /* AdventPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9214C3892BA65AC30028E070 /* AdventPro-Regular.ttf */; };
+		9214C39F2BA65AC40028E070 /* Rubik-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9214C38A2BA65AC30028E070 /* Rubik-SemiBoldItalic.ttf */; };
+		9214C3A02BA65AC40028E070 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9214C38B2BA65AC30028E070 /* Rubik-Bold.ttf */; };
+		9214C3A12BA65AC40028E070 /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9214C38C2BA65AC30028E070 /* Rubik-Black.ttf */; };
+		9214C3A22BA65AC40028E070 /* AdventPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9214C38D2BA65AC40028E070 /* AdventPro-SemiBold.ttf */; };
+		9214C3A32BA65AC40028E070 /* Rubik-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9214C38E2BA65AC40028E070 /* Rubik-ExtraBold.ttf */; };
+		9214C3A42BA65AC40028E070 /* AdventPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9214C38F2BA65AC40028E070 /* AdventPro-Medium.ttf */; };
+		9214C3A52BA65AC40028E070 /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9214C3902BA65AC40028E070 /* Rubik-BoldItalic.ttf */; };
+		9214C3A72BA65B020028E070 /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9214C3A62BA65B020028E070 /* ErrorViewController.swift */; };
+		9214C3AB2BA65CDB0028E070 /* ErrorScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9214C3AA2BA65CDB0028E070 /* ErrorScreen.storyboard */; };
+		9214C3AE2BA65DCD0028E070 /* ErrorCloud.json in Resources */ = {isa = PBXBuildFile; fileRef = 9214C3AC2BA65DCD0028E070 /* ErrorCloud.json */; };
+		9214C3AF2BA65DCD0028E070 /* locate.json in Resources */ = {isa = PBXBuildFile; fileRef = 9214C3AD2BA65DCD0028E070 /* locate.json */; };
+		9214C3B22BA6649D0028E070 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9214C3B12BA6649D0028E070 /* WeatherModel.swift */; };
+		9214C3B62BA6666E0028E070 /* WeatherAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9214C3B52BA6666E0028E070 /* WeatherAPIService.swift */; };
+		9214C3B82BA66E8B0028E070 /* WeatherHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9214C3B72BA66E8B0028E070 /* WeatherHomeViewModel.swift */; };
+		9214C3BA2BA67A600028E070 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9214C3B92BA67A600028E070 /* Constant.swift */; };
+		9214C3BE2BA687450028E070 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9214C3BD2BA687450028E070 /* View.swift */; };
+		9214C3C02BA6E4660028E070 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9214C3BF2BA6E4650028E070 /* CollectionView.swift */; };
+		9214C3C72BA6E8230028E070 /* WeatherCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9214C3C52BA6E8230028E070 /* WeatherCollectionCell.swift */; };
+		9214C3C82BA6E8230028E070 /* WeatherCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9214C3C62BA6E8230028E070 /* WeatherCollectionCell.xib */; };
+		9232075D2BA60595004D6C14 /* launch.json in Resources */ = {isa = PBXBuildFile; fileRef = 9232075C2BA60595004D6C14 /* launch.json */; };
 		926DA3612BA5F5E9009A52BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DA3602BA5F5E9009A52BC /* AppDelegate.swift */; };
 		926DA3632BA5F5E9009A52BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DA3622BA5F5E9009A52BC /* SceneDelegate.swift */; };
-		926DA3652BA5F5E9009A52BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DA3642BA5F5E9009A52BC /* ViewController.swift */; };
+		926DA3652BA5F5E9009A52BC /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DA3642BA5F5E9009A52BC /* WeatherViewController.swift */; };
 		926DA3682BA5F5E9009A52BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926DA3662BA5F5E9009A52BC /* Main.storyboard */; };
 		926DA36A2BA5F5EB009A52BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926DA3692BA5F5EB009A52BC /* Assets.xcassets */; };
 		926DA36D2BA5F5EB009A52BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926DA36B2BA5F5EB009A52BC /* LaunchScreen.storyboard */; };
-		926DA3782BA5F5EB009A52BC /* WeatherApp_SadidurTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DA3772BA5F5EB009A52BC /* WeatherApp_SadidurTests.swift */; };
-		926DA3822BA5F5EB009A52BC /* WeatherApp_SadidurUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DA3812BA5F5EB009A52BC /* WeatherApp_SadidurUITests.swift */; };
-		926DA3842BA5F5EB009A52BC /* WeatherApp_SadidurUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DA3832BA5F5EB009A52BC /* WeatherApp_SadidurUITestsLaunchTests.swift */; };
+		926DA3912BA5FAEA009A52BC /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DA3902BA5FAEA009A52BC /* LaunchScreenViewController.swift */; };
+		92B83BCC2BA74D0D00BE22F0 /* ForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B83BCB2BA74D0D00BE22F0 /* ForecastModel.swift */; };
+		92B83BCF2BA76F0200BE22F0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 92B83BCE2BA76F0200BE22F0 /* README.md */; };
+		A36F63552082F4779DD4F027 /* Pods_WeatherApp_SadidurTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692DCD9F9EE9F167AE1C2474 /* Pods_WeatherApp_SadidurTests.framework */; };
+		CFB73952B2728D8EB41A382C /* Pods_WeatherApp_Sadidur.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9239EDD6E06F3E2B66DDE96E /* Pods_WeatherApp_Sadidur.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +75,64 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3151A5230BCEB8B00ECAE011 /* Pods-WeatherApp_Sadidur.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp_Sadidur.debug.xcconfig"; path = "Target Support Files/Pods-WeatherApp_Sadidur/Pods-WeatherApp_Sadidur.debug.xcconfig"; sourceTree = "<group>"; };
+		41B658A5359DA76FE70175B6 /* Pods-WeatherApp_Sadidur.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp_Sadidur.release.xcconfig"; path = "Target Support Files/Pods-WeatherApp_Sadidur/Pods-WeatherApp_Sadidur.release.xcconfig"; sourceTree = "<group>"; };
+		692DCD9F9EE9F167AE1C2474 /* Pods_WeatherApp_SadidurTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherApp_SadidurTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72967977A4D9C945E1721B7E /* Pods-WeatherApp_SadidurTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp_SadidurTests.release.xcconfig"; path = "Target Support Files/Pods-WeatherApp_SadidurTests/Pods-WeatherApp_SadidurTests.release.xcconfig"; sourceTree = "<group>"; };
+		9202BFFA2BA6FCA600980D31 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		9202BFFD2BA7030800980D31 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		9214C37C2BA65AC20028E070 /* AdventPro-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdventPro-ExtraLight.ttf"; sourceTree = "<group>"; };
+		9214C37D2BA65AC20028E070 /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		9214C37E2BA65AC30028E070 /* AdventPro-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdventPro-Thin.ttf"; sourceTree = "<group>"; };
+		9214C37F2BA65AC30028E070 /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		9214C3802BA65AC30028E070 /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
+		9214C3812BA65AC30028E070 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		9214C3822BA65AC30028E070 /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		9214C3832BA65AC30028E070 /* AdventPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdventPro-Light.ttf"; sourceTree = "<group>"; };
+		9214C3842BA65AC30028E070 /* Rubik-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-SemiBold.ttf"; sourceTree = "<group>"; };
+		9214C3852BA65AC30028E070 /* AdventPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdventPro-Bold.ttf"; sourceTree = "<group>"; };
+		9214C3862BA65AC30028E070 /* Rubik-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		9214C3872BA65AC30028E070 /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		9214C3882BA65AC30028E070 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		9214C3892BA65AC30028E070 /* AdventPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdventPro-Regular.ttf"; sourceTree = "<group>"; };
+		9214C38A2BA65AC30028E070 /* Rubik-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		9214C38B2BA65AC30028E070 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		9214C38C2BA65AC30028E070 /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
+		9214C38D2BA65AC40028E070 /* AdventPro-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdventPro-SemiBold.ttf"; sourceTree = "<group>"; };
+		9214C38E2BA65AC40028E070 /* Rubik-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-ExtraBold.ttf"; sourceTree = "<group>"; };
+		9214C38F2BA65AC40028E070 /* AdventPro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdventPro-Medium.ttf"; sourceTree = "<group>"; };
+		9214C3902BA65AC40028E070 /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
+		9214C3A62BA65B020028E070 /* ErrorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorViewController.swift; sourceTree = "<group>"; };
+		9214C3AA2BA65CDB0028E070 /* ErrorScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ErrorScreen.storyboard; sourceTree = "<group>"; };
+		9214C3AC2BA65DCD0028E070 /* ErrorCloud.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ErrorCloud.json; sourceTree = "<group>"; };
+		9214C3AD2BA65DCD0028E070 /* locate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locate.json; sourceTree = "<group>"; };
+		9214C3B12BA6649D0028E070 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		9214C3B52BA6666E0028E070 /* WeatherAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPIService.swift; sourceTree = "<group>"; };
+		9214C3B72BA66E8B0028E070 /* WeatherHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherHomeViewModel.swift; sourceTree = "<group>"; };
+		9214C3B92BA67A600028E070 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		9214C3BD2BA687450028E070 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		9214C3BF2BA6E4650028E070 /* CollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		9214C3C52BA6E8230028E070 /* WeatherCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCollectionCell.swift; sourceTree = "<group>"; };
+		9214C3C62BA6E8230028E070 /* WeatherCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherCollectionCell.xib; sourceTree = "<group>"; };
+		9232075C2BA60595004D6C14 /* launch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = launch.json; sourceTree = "<group>"; };
+		9239EDD6E06F3E2B66DDE96E /* Pods_WeatherApp_Sadidur.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherApp_Sadidur.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		926DA35D2BA5F5E9009A52BC /* WeatherApp_Sadidur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp_Sadidur.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		926DA3602BA5F5E9009A52BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		926DA3622BA5F5E9009A52BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		926DA3642BA5F5E9009A52BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		926DA3642BA5F5E9009A52BC /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		926DA3672BA5F5E9009A52BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		926DA3692BA5F5EB009A52BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		926DA36C2BA5F5EB009A52BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		926DA36E2BA5F5EB009A52BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		926DA3732BA5F5EB009A52BC /* WeatherApp_SadidurTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherApp_SadidurTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		926DA3772BA5F5EB009A52BC /* WeatherApp_SadidurTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp_SadidurTests.swift; sourceTree = "<group>"; };
 		926DA37D2BA5F5EB009A52BC /* WeatherApp_SadidurUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherApp_SadidurUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		926DA3812BA5F5EB009A52BC /* WeatherApp_SadidurUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp_SadidurUITests.swift; sourceTree = "<group>"; };
-		926DA3832BA5F5EB009A52BC /* WeatherApp_SadidurUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp_SadidurUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		926DA3902BA5FAEA009A52BC /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		92B83BCB2BA74D0D00BE22F0 /* ForecastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastModel.swift; sourceTree = "<group>"; };
+		92B83BCE2BA76F0200BE22F0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9C55A060C7020CD337D685BC /* Pods-WeatherApp_Sadidur-WeatherApp_SadidurUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp_Sadidur-WeatherApp_SadidurUITests.release.xcconfig"; path = "Target Support Files/Pods-WeatherApp_Sadidur-WeatherApp_SadidurUITests/Pods-WeatherApp_Sadidur-WeatherApp_SadidurUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B63CABA08AD5E072EEDC2E08 /* Pods_WeatherApp_Sadidur_WeatherApp_SadidurUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherApp_Sadidur_WeatherApp_SadidurUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7DD7AFB17BEFAF4FC7EF97A /* Pods-WeatherApp_Sadidur-WeatherApp_SadidurUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp_Sadidur-WeatherApp_SadidurUITests.debug.xcconfig"; path = "Target Support Files/Pods-WeatherApp_Sadidur-WeatherApp_SadidurUITests/Pods-WeatherApp_Sadidur-WeatherApp_SadidurUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FEC5DFC16BF386A3BB484FA5 /* Pods-WeatherApp_SadidurTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp_SadidurTests.debug.xcconfig"; path = "Target Support Files/Pods-WeatherApp_SadidurTests/Pods-WeatherApp_SadidurTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFB73952B2728D8EB41A382C /* Pods_WeatherApp_Sadidur.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A36F63552082F4779DD4F027 /* Pods_WeatherApp_SadidurTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +156,131 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				219317717A90F364F21233C0 /* Pods_WeatherApp_Sadidur_WeatherApp_SadidurUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37C969BCFBE93EBF5A5E7DF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9239EDD6E06F3E2B66DDE96E /* Pods_WeatherApp_Sadidur.framework */,
+				B63CABA08AD5E072EEDC2E08 /* Pods_WeatherApp_Sadidur_WeatherApp_SadidurUITests.framework */,
+				692DCD9F9EE9F167AE1C2474 /* Pods_WeatherApp_SadidurTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9202BFFC2BA702F500980D31 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				9202BFFD2BA7030800980D31 /* LocationService.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		9214C37B2BA65AA40028E070 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9214C3852BA65AC30028E070 /* AdventPro-Bold.ttf */,
+				9214C37C2BA65AC20028E070 /* AdventPro-ExtraLight.ttf */,
+				9214C3832BA65AC30028E070 /* AdventPro-Light.ttf */,
+				9214C38F2BA65AC40028E070 /* AdventPro-Medium.ttf */,
+				9214C3892BA65AC30028E070 /* AdventPro-Regular.ttf */,
+				9214C38D2BA65AC40028E070 /* AdventPro-SemiBold.ttf */,
+				9214C37E2BA65AC30028E070 /* AdventPro-Thin.ttf */,
+				9214C38C2BA65AC30028E070 /* Rubik-Black.ttf */,
+				9214C3822BA65AC30028E070 /* Rubik-BlackItalic.ttf */,
+				9214C38B2BA65AC30028E070 /* Rubik-Bold.ttf */,
+				9214C3902BA65AC40028E070 /* Rubik-BoldItalic.ttf */,
+				9214C38E2BA65AC40028E070 /* Rubik-ExtraBold.ttf */,
+				9214C3862BA65AC30028E070 /* Rubik-ExtraBoldItalic.ttf */,
+				9214C37D2BA65AC20028E070 /* Rubik-Italic.ttf */,
+				9214C37F2BA65AC30028E070 /* Rubik-Light.ttf */,
+				9214C3872BA65AC30028E070 /* Rubik-LightItalic.ttf */,
+				9214C3812BA65AC30028E070 /* Rubik-Medium.ttf */,
+				9214C3802BA65AC30028E070 /* Rubik-MediumItalic.ttf */,
+				9214C3882BA65AC30028E070 /* Rubik-Regular.ttf */,
+				9214C3842BA65AC30028E070 /* Rubik-SemiBold.ttf */,
+				9214C38A2BA65AC30028E070 /* Rubik-SemiBoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9214C3A82BA65C450028E070 /* Lottie Files */ = {
+			isa = PBXGroup;
+			children = (
+				9214C3AC2BA65DCD0028E070 /* ErrorCloud.json */,
+				9214C3AD2BA65DCD0028E070 /* locate.json */,
+				9232075C2BA60595004D6C14 /* launch.json */,
+			);
+			path = "Lottie Files";
+			sourceTree = "<group>";
+		};
+		9214C3A92BA65C570028E070 /* ErrorView */ = {
+			isa = PBXGroup;
+			children = (
+				9214C3A62BA65B020028E070 /* ErrorViewController.swift */,
+			);
+			path = ErrorView;
+			sourceTree = "<group>";
+		};
+		9214C3B02BA6647E0028E070 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9214C3B12BA6649D0028E070 /* WeatherModel.swift */,
+				92B83BCB2BA74D0D00BE22F0 /* ForecastModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9214C3B32BA666280028E070 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9214C3B72BA66E8B0028E070 /* WeatherHomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9214C3B42BA6664A0028E070 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9214C3B92BA67A600028E070 /* Constant.swift */,
+				9214C3B52BA6666E0028E070 /* WeatherAPIService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9214C3BB2BA684E60028E070 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9214C3A82BA65C450028E070 /* Lottie Files */,
+				9214C37B2BA65AA40028E070 /* Fonts */,
+				926DA3692BA5F5EB009A52BC /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9214C3BC2BA6872E0028E070 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9202BFFA2BA6FCA600980D31 /* StringExtension.swift */,
+				9214C3BF2BA6E4650028E070 /* CollectionView.swift */,
+				9214C3BD2BA687450028E070 /* View.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		926DA3542BA5F5E9009A52BC = {
 			isa = PBXGroup;
 			children = (
+				92B83BCE2BA76F0200BE22F0 /* README.md */,
 				926DA35F2BA5F5E9009A52BC /* WeatherApp_Sadidur */,
-				926DA3762BA5F5EB009A52BC /* WeatherApp_SadidurTests */,
-				926DA3802BA5F5EB009A52BC /* WeatherApp_SadidurUITests */,
 				926DA35E2BA5F5E9009A52BC /* Products */,
+				AC7369D99B6E7A48F91B5E3B /* Pods */,
+				37C969BCFBE93EBF5A5E7DF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,30 +299,44 @@
 			children = (
 				926DA3602BA5F5E9009A52BC /* AppDelegate.swift */,
 				926DA3622BA5F5E9009A52BC /* SceneDelegate.swift */,
-				926DA3642BA5F5E9009A52BC /* ViewController.swift */,
-				926DA3662BA5F5E9009A52BC /* Main.storyboard */,
-				926DA3692BA5F5EB009A52BC /* Assets.xcassets */,
-				926DA36B2BA5F5EB009A52BC /* LaunchScreen.storyboard */,
 				926DA36E2BA5F5EB009A52BC /* Info.plist */,
+				926DA3902BA5FAEA009A52BC /* LaunchScreenViewController.swift */,
+				9202BFFC2BA702F500980D31 /* Location */,
+				9214C3BC2BA6872E0028E070 /* Extensions */,
+				9214C3BB2BA684E60028E070 /* Resources */,
+				9214C3B42BA6664A0028E070 /* Network */,
+				9214C3B02BA6647E0028E070 /* Model */,
+				92B83BCD2BA769FD00BE22F0 /* WeatherHome */,
+				9214C3A92BA65C570028E070 /* ErrorView */,
+				926DA3662BA5F5E9009A52BC /* Main.storyboard */,
+				926DA36B2BA5F5EB009A52BC /* LaunchScreen.storyboard */,
+				9214C3AA2BA65CDB0028E070 /* ErrorScreen.storyboard */,
 			);
 			path = WeatherApp_Sadidur;
 			sourceTree = "<group>";
 		};
-		926DA3762BA5F5EB009A52BC /* WeatherApp_SadidurTests */ = {
+		92B83BCD2BA769FD00BE22F0 /* WeatherHome */ = {
 			isa = PBXGroup;
 			children = (
-				926DA3772BA5F5EB009A52BC /* WeatherApp_SadidurTests.swift */,
+				9214C3C62BA6E8230028E070 /* WeatherCollectionCell.xib */,
+				9214C3C52BA6E8230028E070 /* WeatherCollectionCell.swift */,
+				926DA3642BA5F5E9009A52BC /* WeatherViewController.swift */,
+				9214C3B32BA666280028E070 /* ViewModel */,
 			);
-			path = WeatherApp_SadidurTests;
+			path = WeatherHome;
 			sourceTree = "<group>";
 		};
-		926DA3802BA5F5EB009A52BC /* WeatherApp_SadidurUITests */ = {
+		AC7369D99B6E7A48F91B5E3B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				926DA3812BA5F5EB009A52BC /* WeatherApp_SadidurUITests.swift */,
-				926DA3832BA5F5EB009A52BC /* WeatherApp_SadidurUITestsLaunchTests.swift */,
+				3151A5230BCEB8B00ECAE011 /* Pods-WeatherApp_Sadidur.debug.xcconfig */,
+				41B658A5359DA76FE70175B6 /* Pods-WeatherApp_Sadidur.release.xcconfig */,
+				F7DD7AFB17BEFAF4FC7EF97A /* Pods-WeatherApp_Sadidur-WeatherApp_SadidurUITests.debug.xcconfig */,
+				9C55A060C7020CD337D685BC /* Pods-WeatherApp_Sadidur-WeatherApp_SadidurUITests.release.xcconfig */,
+				FEC5DFC16BF386A3BB484FA5 /* Pods-WeatherApp_SadidurTests.debug.xcconfig */,
+				72967977A4D9C945E1721B7E /* Pods-WeatherApp_SadidurTests.release.xcconfig */,
 			);
-			path = WeatherApp_SadidurUITests;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +346,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 926DA3872BA5F5EB009A52BC /* Build configuration list for PBXNativeTarget "WeatherApp_Sadidur" */;
 			buildPhases = (
+				DA1C435B3807B73E72CD5FD2 /* [CP] Check Pods Manifest.lock */,
 				926DA3592BA5F5E9009A52BC /* Sources */,
 				926DA35A2BA5F5E9009A52BC /* Frameworks */,
 				926DA35B2BA5F5E9009A52BC /* Resources */,
+				A258C32215FBF4A86AEF96B1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +365,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 926DA38A2BA5F5EB009A52BC /* Build configuration list for PBXNativeTarget "WeatherApp_SadidurTests" */;
 			buildPhases = (
+				53D6EAD92985E101BF699C7B /* [CP] Check Pods Manifest.lock */,
 				926DA36F2BA5F5EB009A52BC /* Sources */,
 				926DA3702BA5F5EB009A52BC /* Frameworks */,
 				926DA3712BA5F5EB009A52BC /* Resources */,
@@ -169,9 +384,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 926DA38D2BA5F5EB009A52BC /* Build configuration list for PBXNativeTarget "WeatherApp_SadidurUITests" */;
 			buildPhases = (
+				63D19CB8819FD96E144E551B /* [CP] Check Pods Manifest.lock */,
 				926DA3792BA5F5EB009A52BC /* Sources */,
 				926DA37A2BA5F5EB009A52BC /* Frameworks */,
 				926DA37B2BA5F5EB009A52BC /* Resources */,
+				5189015C9493A640D41F93F8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,8 +449,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				926DA36D2BA5F5EB009A52BC /* LaunchScreen.storyboard in Resources */,
+				9214C3A42BA65AC40028E070 /* AdventPro-Medium.ttf in Resources */,
+				9214C3992BA65AC40028E070 /* Rubik-SemiBold.ttf in Resources */,
+				9214C3AF2BA65DCD0028E070 /* locate.json in Resources */,
+				9214C3952BA65AC40028E070 /* Rubik-MediumItalic.ttf in Resources */,
+				9214C3AE2BA65DCD0028E070 /* ErrorCloud.json in Resources */,
+				9214C3A12BA65AC40028E070 /* Rubik-Black.ttf in Resources */,
+				9214C39B2BA65AC40028E070 /* Rubik-ExtraBoldItalic.ttf in Resources */,
 				926DA36A2BA5F5EB009A52BC /* Assets.xcassets in Resources */,
+				9214C39E2BA65AC40028E070 /* AdventPro-Regular.ttf in Resources */,
+				9214C3922BA65AC40028E070 /* Rubik-Italic.ttf in Resources */,
+				9214C3AB2BA65CDB0028E070 /* ErrorScreen.storyboard in Resources */,
+				92B83BCF2BA76F0200BE22F0 /* README.md in Resources */,
+				9214C3912BA65AC40028E070 /* AdventPro-ExtraLight.ttf in Resources */,
+				9214C3A52BA65AC40028E070 /* Rubik-BoldItalic.ttf in Resources */,
+				9214C3972BA65AC40028E070 /* Rubik-BlackItalic.ttf in Resources */,
+				9214C3A02BA65AC40028E070 /* Rubik-Bold.ttf in Resources */,
+				9214C3A22BA65AC40028E070 /* AdventPro-SemiBold.ttf in Resources */,
+				9214C3932BA65AC40028E070 /* AdventPro-Thin.ttf in Resources */,
+				9214C3A32BA65AC40028E070 /* Rubik-ExtraBold.ttf in Resources */,
+				9214C39C2BA65AC40028E070 /* Rubik-LightItalic.ttf in Resources */,
+				9214C3942BA65AC40028E070 /* Rubik-Light.ttf in Resources */,
+				9232075D2BA60595004D6C14 /* launch.json in Resources */,
 				926DA3682BA5F5E9009A52BC /* Main.storyboard in Resources */,
+				9214C3C82BA6E8230028E070 /* WeatherCollectionCell.xib in Resources */,
+				9214C39F2BA65AC40028E070 /* Rubik-SemiBoldItalic.ttf in Resources */,
+				9214C39D2BA65AC40028E070 /* Rubik-Regular.ttf in Resources */,
+				9214C3962BA65AC40028E070 /* Rubik-Medium.ttf in Resources */,
+				9214C3982BA65AC40028E070 /* AdventPro-Light.ttf in Resources */,
+				9214C39A2BA65AC40028E070 /* AdventPro-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +497,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5189015C9493A640D41F93F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeatherApp_Sadidur-WeatherApp_SadidurUITests/Pods-WeatherApp_Sadidur-WeatherApp_SadidurUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeatherApp_Sadidur-WeatherApp_SadidurUITests/Pods-WeatherApp_Sadidur-WeatherApp_SadidurUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeatherApp_Sadidur-WeatherApp_SadidurUITests/Pods-WeatherApp_Sadidur-WeatherApp_SadidurUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53D6EAD92985E101BF699C7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeatherApp_SadidurTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63D19CB8819FD96E144E551B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeatherApp_Sadidur-WeatherApp_SadidurUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A258C32215FBF4A86AEF96B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeatherApp_Sadidur/Pods-WeatherApp_Sadidur-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeatherApp_Sadidur/Pods-WeatherApp_Sadidur-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeatherApp_Sadidur/Pods-WeatherApp_Sadidur-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA1C435B3807B73E72CD5FD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeatherApp_Sadidur-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		926DA3592BA5F5E9009A52BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				926DA3652BA5F5E9009A52BC /* ViewController.swift in Sources */,
+				926DA3652BA5F5E9009A52BC /* WeatherViewController.swift in Sources */,
 				926DA3612BA5F5E9009A52BC /* AppDelegate.swift in Sources */,
+				9214C3BE2BA687450028E070 /* View.swift in Sources */,
+				9214C3C72BA6E8230028E070 /* WeatherCollectionCell.swift in Sources */,
+				9214C3BA2BA67A600028E070 /* Constant.swift in Sources */,
+				9214C3B82BA66E8B0028E070 /* WeatherHomeViewModel.swift in Sources */,
+				9214C3A72BA65B020028E070 /* ErrorViewController.swift in Sources */,
+				926DA3912BA5FAEA009A52BC /* LaunchScreenViewController.swift in Sources */,
+				9214C3B22BA6649D0028E070 /* WeatherModel.swift in Sources */,
 				926DA3632BA5F5E9009A52BC /* SceneDelegate.swift in Sources */,
+				9202BFFE2BA7030800980D31 /* LocationService.swift in Sources */,
+				9214C3C02BA6E4660028E070 /* CollectionView.swift in Sources */,
+				9202BFFB2BA6FCA600980D31 /* StringExtension.swift in Sources */,
+				92B83BCC2BA74D0D00BE22F0 /* ForecastModel.swift in Sources */,
+				9214C3B62BA6666E0028E070 /* WeatherAPIService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +627,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				926DA3782BA5F5EB009A52BC /* WeatherApp_SadidurTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +634,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				926DA3842BA5F5EB009A52BC /* WeatherApp_SadidurUITestsLaunchTests.swift in Sources */,
-				926DA3822BA5F5EB009A52BC /* WeatherApp_SadidurUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +709,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -368,7 +724,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -416,7 +772,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -425,7 +781,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -437,6 +793,7 @@
 		};
 		926DA3882BA5F5EB009A52BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3151A5230BCEB8B00ECAE011 /* Pods-WeatherApp_Sadidur.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,8 +805,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,6 +823,7 @@
 		};
 		926DA3892BA5F5EB009A52BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41B658A5359DA76FE70175B6 /* Pods-WeatherApp_Sadidur.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -476,8 +835,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -493,6 +853,7 @@
 		};
 		926DA38B2BA5F5EB009A52BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEC5DFC16BF386A3BB484FA5 /* Pods-WeatherApp_SadidurTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +874,7 @@
 		};
 		926DA38C2BA5F5EB009A52BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72967977A4D9C945E1721B7E /* Pods-WeatherApp_SadidurTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +895,7 @@
 		};
 		926DA38E2BA5F5EB009A52BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7DD7AFB17BEFAF4FC7EF97A /* Pods-WeatherApp_Sadidur-WeatherApp_SadidurUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +914,7 @@
 		};
 		926DA38F2BA5F5EB009A52BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C55A060C7020CD337D685BC /* Pods-WeatherApp_Sadidur-WeatherApp_SadidurUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
